@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+$primary-font: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $primary-font;
+}
+
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.dark-bg {
+  display: block;
+  background: #7E82AB;
+}
+
+svg {
+  width:100%;
+  height:100%;
+  visibility:hidden;
+}
